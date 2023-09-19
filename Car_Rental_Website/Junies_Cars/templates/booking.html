@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} | Booking {% endblock %}
+
+{% block content %}
+<!-- bestCar -->
+      <div id="contact" class="bestCars">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="row">
+                     <div class="col-md-6 offset-md-6">
+                        <form class="main_form">
+                           <div class="titlepage">
+                              <h2>Find A  Best Car For Rent</h2>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12 ">
+                                 <select>
+                                    <option value="0">Choose car Make</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                 </select>
+                              </div>
+                              <div class="col-md-12">
+                                 <select>
+                                    <option value="0">Choose Car Type </option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                 </select>
+                              </div>
+                              <div class="col-md-12">
+                                 <select>
+                                    <option value="0">State </option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                 </select>
+                              </div>
+                              <div class="col-md-12">
+                                 <input class="contactus" placeholder="Pickup Location" type="text" name="Pickup_Loc">                          
+                              </div>
+                              <div class="col-md-12">
+                                 <h2>Delivery is Two Weeks After Booking!</h2>
+                                 <input class="contactus" type="Date" name="Pickup_Date">                          
+                              </div>
+                              <div class="col-md-12">
+                                 <input class="contactus" placeholder="Car Price" type="text" name="Car_Price">
+                              </div>
+                              <div class="col-sm-12">
+                                 <button class="find_btn">Book Now</button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end bestCar -->
+{% endblock %}
